@@ -1,0 +1,23 @@
+s = " have a niCe DAY "
+
+print(s)
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.swapcase())
+print(s.strip())
+print(s.center(50))
+print(s.center(50,'*'))
+print(s.replace('niCe','good'))
+print(s.find('DAY'))
+print(s.find('a'))
+print(s.count('A'))
+print(s.join('@#$'))
+print(s.startswith('a'))
+print(s.endswith('Y'))
+print(s.zfill(40))
+print(s.split())
+print(s.casefold())
+
+print(dir(s))
